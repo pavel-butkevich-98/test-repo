@@ -3,7 +3,7 @@ entries:
   helm:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2019-12-05T11:12:21.160878729+03:00"
+    created: "2019-12-05T12:01:49.457439244+03:00"
     description: A Helm chart for Helix Back End
     digest: 0949ed27e0f00087332c6a5134ddeefba930ac27b872de144b708f36527a7a91
     name: helm
@@ -12,11 +12,20 @@ entries:
     version: 3.0.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2019-12-05T11:12:21.160648249+03:00"
+    created: "2019-12-05T12:01:49.457165769+03:00"
     description: A Helm chart for Helix Back End
     digest: 89d5488b712edacafd3b717f1be93beb1834936b0d72d366571e17cfd8ee6b75
     name: helm
     urls:
     - helm-2.0.0.tgz
     version: 2.0.0
-generated: "2019-12-05T11:12:21.16028008+03:00"
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2019-12-05T12:01:49.456926601+03:00"
+    description: A Helm chart for Helix Back End
+    digest: 3906155a21fd32179ad648845c4b8b9469881655f278d74df9a1a32128afba0a
+    name: helm
+    urls:
+    - helm-1.0.0.tgz
+    version: 1.0.0
+generated: "2019-12-05T12:01:49.456541183+03:00"
