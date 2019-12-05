@@ -12,21 +12,21 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 0.1.0
+    created: "2019-12-05T10:41:36.470114299+03:00"
+    description: A Helm chart for Helix Back End
+    digest: ab68cd27e7a4bf904d5bf4ec51085f8e64d52a354a1f8e54df4658eb4f679040
+    name: helm
+    urls:
+    - https://raw.githubusercontent.com/pavel-butkevich-98/test-repo/master/helm-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 0.1.0
     created: "2019-12-05T10:27:24.93285861+03:00"
     description: A Helm chart for Helix Back End
     digest: f95f4125ad67298fa2424f9dadbbd047a7c4fa7ce532139bbca8df9997c3366e
     name: helm
     urls:
     - https://raw.githubusercontent.com/pavel-butkevich-98/test-repo/master/helm-1.0.0.tgz
-    version: 1.0.0
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: "2019-12-05T10:27:24.933087521+03:00"
-    description: A Helm chart for Helix Back End
-    digest: f95f4125ad67298fa2424f9dadbbd047a7c4fa7ce532139bbca8df9997c3366e
-    name: helm
-    urls:
-    - https://raw.githubusercontent.com/pavel-butkevich-98/test-repo/master/helm-1.0.1.tgz
     version: 1.0.0
   helm123:
   - apiVersion: v1
@@ -38,4 +38,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/pavel-butkevich-98/test-repo/master/helm123-1.0.0.tgz
     version: 1.0.0
-generated: "2019-12-05T10:27:24.932467234+03:00"
+generated: "2019-12-05T10:41:36.469674646+03:00"
