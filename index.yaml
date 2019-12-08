@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  helix:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2019-12-08T11:50:50.208154153+03:00"
+    description: A Helm chart for Helix API
+    digest: ca298af6060993fd246325f9d8c1a6d70aeaa6ecf9417d62e88532575e4b74d2
+    name: helix
+    urls:
+    - mysql/helix-8.0.0.tgz
+    version: 8.0.0
   helm:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2019-12-07T22:28:19.298805807+03:00"
+    created: "2019-12-08T11:50:50.208394269+03:00"
     description: A Helm chart for Helix Back End
     digest: 0949ed27e0f00087332c6a5134ddeefba930ac27b872de144b708f36527a7a91
     name: helm
@@ -12,16 +22,7 @@ entries:
     version: 3.0.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2019-12-07T22:28:19.299090824+03:00"
-    description: A Helm chart for Helix Back End
-    digest: 0949ed27e0f00087332c6a5134ddeefba930ac27b872de144b708f36527a7a91
-    name: helm
-    urls:
-    - mysql/helm-8.0.0.tgz
-    version: 3.0.0
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: "2019-12-07T22:28:19.298544325+03:00"
+    created: "2019-12-08T11:50:50.207720266+03:00"
     description: A Helm chart for Helix Back End
     digest: 89d5488b712edacafd3b717f1be93beb1834936b0d72d366571e17cfd8ee6b75
     name: helm
@@ -30,11 +31,11 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2019-12-07T22:28:19.298233454+03:00"
+    created: "2019-12-08T11:50:50.207479629+03:00"
     description: A Helm chart for Helix Back End
     digest: 3906155a21fd32179ad648845c4b8b9469881655f278d74df9a1a32128afba0a
     name: helm
     urls:
     - helix/helm-1.0.0.tgz
     version: 1.0.0
-generated: "2019-12-07T22:28:19.297816547+03:00"
+generated: "2019-12-08T11:50:50.20708932+03:00"
