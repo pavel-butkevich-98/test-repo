@@ -1,41 +1,13 @@
 apiVersion: v1
 entries:
-  helix:
+  all-components:
   - apiVersion: v1
-    appVersion: 0.1.0
-    created: "2019-12-08T11:50:50.208154153+03:00"
-    description: A Helm chart for Helix API
-    digest: ca298af6060993fd246325f9d8c1a6d70aeaa6ecf9417d62e88532575e4b74d2
-    name: helix
+    appVersion: "1.0"
+    created: "2019-12-08T12:30:17.477951895+03:00"
+    description: A Helm chart for whole helix backend
+    digest: 15dea623c4c1a17168ccd07c2d3974738ed2a572820dffbab98d48465b4d81b5
+    name: all-components
     urls:
-    - mysql/helix-8.0.0.tgz
-    version: 8.0.0
-  helm:
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: "2019-12-08T11:50:50.208394269+03:00"
-    description: A Helm chart for Helix Back End
-    digest: 0949ed27e0f00087332c6a5134ddeefba930ac27b872de144b708f36527a7a91
-    name: helm
-    urls:
-    - mysql/helm-3.0.0.tgz
-    version: 3.0.0
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: "2019-12-08T11:50:50.207720266+03:00"
-    description: A Helm chart for Helix Back End
-    digest: 89d5488b712edacafd3b717f1be93beb1834936b0d72d366571e17cfd8ee6b75
-    name: helm
-    urls:
-    - helix/helm-2.0.0.tgz
-    version: 2.0.0
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: "2019-12-08T11:50:50.207479629+03:00"
-    description: A Helm chart for Helix Back End
-    digest: 3906155a21fd32179ad648845c4b8b9469881655f278d74df9a1a32128afba0a
-    name: helm
-    urls:
-    - helix/helm-1.0.0.tgz
+    - all-components-1.0.0.tgz
     version: 1.0.0
-generated: "2019-12-08T11:50:50.20708932+03:00"
+generated: "2019-12-08T12:30:17.477319068+03:00"
