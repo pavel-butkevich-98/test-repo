@@ -1,3 +1,33 @@
 apiVersion: v1
-entries: {}
-generated: "2019-12-09T11:18:00.307153501+03:00"
+entries:
+  helix:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2019-12-09T09:36:20.009497103Z"
+    description: A Helm chart for Helix API
+    digest: 68e8f29d573f66baffb73f4d9d9f662001fa294c2bfe9bca62e2eed425895045
+    name: helix
+    urls:
+    - helix-1.0.0.tgz
+    version: 1.0.0
+  mysql:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-12-09T09:36:20.009709227Z"
+    description: A Helm chart for helix database
+    digest: f37a0c227409ac34301ab0592d2f27a2cf0f2872916e26bc80a75b87f819aaf5
+    name: mysql
+    urls:
+    - mysql-1.0.0.tgz
+    version: 1.0.0
+  redis:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-12-09T09:36:20.009876184Z"
+    description: A Helm chart for helix redis
+    digest: 3f72783e20ae9d2be54b6554939abff9257867f404f408580e9cf7b6e99377a7
+    name: redis
+    urls:
+    - redis-1.0.0.tgz
+    version: 1.0.0
+generated: "2019-12-09T09:36:20.009035078Z"
