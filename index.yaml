@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  general-users-service:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-12-27T08:15:29.670156269Z"
+    description: A Helm chart for whole users-service
+    digest: 6eb4400cecb0630114fa6c579a60df835b7c2ca912fb2080c885390aa95e9784
+    name: general-users-service
+    urls:
+    - general-users-service-0.1.0-02013480a0eb31e6651444df932c5b07617d3e6e.tgz
+    version: 0.1.0-02013480a0eb31e6651444df932c5b07617d3e6e
   helix:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2019-12-09T16:26:32.084362364+03:00"
+    created: "2019-12-27T08:15:29.670985647Z"
     description: A Helm chart for Helix API
     digest: f3a0762d8479147e83874aaefb50816d959222cdf38249c06d2667707fc23692
     name: helix
@@ -13,7 +23,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-09T16:26:32.084528637+03:00"
+    created: "2019-12-27T08:15:29.671212113Z"
     description: A Helm chart for helix database
     digest: d5a3fca6a0d61fa8aa49d43759438f2cb83a8965931c320b16da97d20607efa7
     name: mysql
@@ -23,11 +33,21 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-12-09T16:26:32.084726573+03:00"
+    created: "2019-12-27T08:15:29.671400918Z"
     description: A Helm chart for helix redis
     digest: ea52c48f341a41c477529d0f542074c88d099f6722c6973ad58fe5b0a3bf1e49
     name: redis
     urls:
     - redis-1.0.0-11111111.tgz
     version: 1.0.0-11111111
-generated: "2019-12-09T16:26:32.084048739+03:00"
+  users-service:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2019-12-27T08:15:29.671607675Z"
+    description: A Helm chart for users-service1
+    digest: 5924dcb794420aad94be1c3eed5532978ce2a178b2e78520d64693cc80ead20e
+    name: users-service
+    urls:
+    - users-service-1.0.0-02013480a0eb31e6651444df932c5b07617d3e6e.tgz
+    version: 1.0.0-02013480a0eb31e6651444df932c5b07617d3e6e
+generated: "2019-12-27T08:15:29.669536685Z"
